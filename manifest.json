@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Alpha the Minimalist's Homepage",
+    "short_name": "Alp",
+    "version": "0.4",
+    "description": "Simple and distraction free Newtab and Homepage pages",
+
+
+    "content_security_policy": "script-src 'self'; object-src 'self';",
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
