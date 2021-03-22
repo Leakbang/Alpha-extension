@@ -1,2 +1,2 @@
 # Build Branch  
-The code in this branch is the same as the main branch with the exception that the JavaScript and CSS are minified.
+The code in this branch is the same as the main branch with the exception that the JavaScript and CSS are minified. Moreover, the addon files submitted to Mozilla can be found in this branch.
