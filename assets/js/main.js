@@ -14,7 +14,8 @@ document.getElementById("notes-menu").addEventListener("click", OpenNotesMenu);
 
 window.addEventListener("load", WindowLoaded)
 
-function SearchQuery() {
+function SearchQuery(event) {
+    event.preventDefault();
     var SQuery = "https://duckduckgo.com/?q=" + document.getElementById("search-box").value
     window.location.href = SQuery
 }
