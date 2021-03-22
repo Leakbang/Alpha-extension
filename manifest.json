@@ -4,7 +4,7 @@
     "short_name": "Alp",
     "version": "0.4",
     "description": "Simple and distraction free Newtab and Homepage pages",
-    "homepage-url": "Github.com",
+    "homepage-url": "https://github.com/Leakbang/Alpha-extension",
 
 
     "content_security_policy": "script-src 'self'; object-src 'self';",
