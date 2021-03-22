@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%;height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="background: rgb(245,245,245);font-family: 'Josefin Sans', sans-serif;font-style: normal;width: 100%;height: 100%;">
+    <div style="padding-left: 10%;padding-right: 10%;padding-top: 5%;">
+        <h1 id="heading" style="font-weight: bold;font-size: 45px;">Notes</h1>
+        <div class="container" id="main-notes-container" style="display: none;">
+            <div class="row">
+                <div class="col-10 col-md-10 col-xl-11" style="padding: 0px;">
+                    <div class="d-flex" id="container" style="box-shadow: 0px 0px 10px 1px rgb(193,193,193);background: #ffffff;"><textarea id="Textbox" class="textbox-items" style="width: 100%;border-style: none;height: 430px;padding: 10px;font-size: 30px;display: inherit;"></textarea>
+                        <div id="settings-div" class="settings-items" style="height: 430px;padding: 20px;font-size: 25px;width: 100%;">
+                            <h1 class="settings-items" style="font-weight: bold;font-size: 45px;display: inherit;">Settings</h1><div>
+<label class="switch"> 
+  <input type="checkbox" id="AutoSaveEnabled">
+  <span class="slider round"></span>
+</label>
+<span>Auto Update</span>
+</div>
+                            <p class="d-inline-flex">Font Size</p><input class="d-inline-flex" type="text" id="font-size-selector" style="width: 60px;-webkit-appearance: none;font-weight: normal;margin-left: 20px;border-style: none;border-bottom: 3px solid rgb(0,0,0);border-left-style: none;border-left-color: rgb(0,0,0);padding: 0px;" maxlength="4" value="30px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 col-md-2 col-xl-1" style="padding: 0px;">
+                    <div class="d-inline-flex flex-column flex-grow-0 justify-content-center align-items-center align-content-center align-self-center justify-content-xl-end align-items-xl-center" style="background: #000000;color: rgb(255,255,255);padding: 10px;height: 100%;">
+                        <div id="close-menu"><i class="fa fa-rotate-left icon" data-toggle="tooltip" data-bss-tooltip="" data-placement="right" style="font-size: 35px;margin: 0px;margin-right: 0px;margin-left: 0px;padding: 5px;" title="Quit Settings"></i></div>
+                        <div id="load"><i class="fa fa-refresh icon" data-toggle="tooltip" data-bss-tooltip="" data-placement="right" style="font-size: 35px;margin: 0px;margin-right: 0px;margin-left: 0px;padding: 5px;" title="Manual Load"></i></div>
+                        <div id="save"><i class="fa fa-save icon" data-toggle="tooltip" data-bss-tooltip="" data-placement="right" style="font-size: 35px;margin: 0px;margin-right: 0px;margin-left: 0px;padding: 5px;" title="Manual Save"></i></div>
+                        <div id="open-menu"><i class="fa fa-gear icon" data-toggle="tooltip" data-bss-tooltip="" data-placement="right" style="font-size: 35px;margin: 0px;margin-right: 0px;margin-left: 0px;padding: 5px;" title="Settings"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="main-search-container" style="display: none;margin-top: 10%;">
+            <div class="row justify-content-center">
+                <div class="col-10" style="padding: 0px;">
+                    <div class="d-flex" id="container" style="box-shadow: 0px 0px 10px 1px rgb(193,193,193);background: #ffffff;"><form id ="search-form" style="width:100%;">
+<input type="text" id="search-box" style="border-style: none;outline: none;font-size: 30px;padding: 10px;width: 100%;" placeholder="Duck it!" />
+<button type="submit" id="submit-search" style= "display: none"/>
+</form></div>
+                </div>
+                <div class="col-2 col-md-2 col-xl-1" style="padding: 0px;">
+                    <div class="d-inline-flex flex-row flex-grow-0 justify-content-center align-items-center align-content-center align-self-center justify-content-xl-end align-items-xl-center" style="background: #000000;color: rgb(255,255,255);padding: 10px;height: 100%;">
+                        <div id="search" inputtype="submit"><i class="fa fa-search icon" data-toggle="tooltip" data-bss-tooltip="" data-placement="bottom" style="font-size: 35px;margin: 0px;margin-right: 0px;margin-left: 0px;padding: 5px;" title="Search"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-right" style="font-size: 22px;color: rgb(255,255,255);padding: 10px;position: absolute;bottom: 0px;width: 100%;"><a id="search-menu" style="color: rgb(162,162,162);margin-right: 10px;margin-left: 10px;" href="#">Search</a><a id="notes-menu" href="#" style="color: rgb(162,162,162);margin-right: 10px;margin-left: 10px;">Notes</a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
