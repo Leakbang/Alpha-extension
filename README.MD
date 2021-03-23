@@ -6,7 +6,7 @@
 <img src="/art/Screenshot%20(2).png" alt="Screenshot" height="800"/>
 
 ## Installation
-Download it for Firefox from here: [Mozilla Link]  
+Download it for Firefox from here: [Mozzila](https://addons.mozilla.org/en-US/firefox/addon/alpha/)  
 Alternatively, download it from here: [Github Link]  
 
 ## Build from source
@@ -15,5 +15,6 @@ Alternatively it is possible to load only the `manifest.json` file.
 
 ## Features Planned ahead
 - Dark mode
+- Search predictions
 - Ability to use other search engines than DuckDuckGo
 - Tiles Menu
