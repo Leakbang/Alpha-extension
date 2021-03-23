@@ -1,9 +1,9 @@
 # Alpha  
-<img src="/art/Logo.png" alt="Logo" width="200"/>  
+<img src="/art/Logo.png" alt="Logo" width="100"/>  
 ## The Distraction-free NewTab/Homepage  
 
-<img src="/art/Screenshot%20(1).png" alt="Screenshot" height="800"/>
-<img src="/art/Screenshot%20(2).png" alt="Screenshot" height="800"/>
+<img src="/art/Screenshot%20(1).png" alt="Screenshot" width="400"/>
+<img src="/art/Screenshot%20(2).png" alt="Screenshot" width="400"/>
 
 ## Installation
 Download it for Firefox from here: [Mozzila](https://addons.mozilla.org/en-US/firefox/addon/alpha/)  
