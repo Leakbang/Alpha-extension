@@ -1,5 +1,6 @@
 # Alpha  
 <img src="/art/Logo.png" alt="Logo" width="100"/>  
+
 ## The Distraction-free NewTab/Homepage  
 
 <img src="/art/Screenshot%20(1).png" alt="Screenshot" width="400"/>
