@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Alpha, A Distraction Free Homepage",
     "short_name": "Alp",
-    "version": "0.4",
+    "version": "0.5",
     "description": "Simple and distraction free Newtab and Homepage pages",
     "homepage-url": "https://github.com/Leakbang/Alpha-extension",
 

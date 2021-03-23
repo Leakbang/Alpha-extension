@@ -107,3 +107,16 @@ input {
   cursor: pointer;
 }
 
+.dark-mode {
+  background-color: black;
+  color: #f5f5f5;
+}
+
+.inversion {
+  filter: invert(100%);
+}
+
+display-inversion {
+  display: none;
+}
+
