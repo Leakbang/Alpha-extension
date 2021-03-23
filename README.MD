@@ -1,6 +1,9 @@
 # Alpha  
+<img src="/art/Logo.png" alt="Logo" width="200"/>  
 ## The Distraction-free NewTab/Homepage  
-### For those who want to be focused  
+
+<img src="/art/Screenshot%20(1).png" alt="Screenshot" height="800"/>
+<img src="/art/Screenshot%20(2).png" alt="Screenshot" height="800"/>
 
 ## Installation
 Download it for Firefox from here: [Mozilla Link]  
