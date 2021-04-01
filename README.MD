@@ -19,3 +19,6 @@ Alternatively it is possible to load only the `manifest.json` file.
 - Search predictions
 - Ability to use other search engines than DuckDuckGo
 - Tiles Menu
+
+## Acknowledgements
+The user interface was heavily inspired by the design of [Cryptee V3.0](https://crypt.ee/)
